@@ -1,15 +1,25 @@
 {
   "name": "DeepDev",
   "short_name": "DeepDev",
-  "start_url": "/",
   "icons": [
     {
       "src": "/android-chrome-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/mstile-150x150.png",
+      "sizes": "150x150",
+      "type": "image/png"
     }
   ],
   "theme_color": "#111827",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "standalone",
+  "start_url": "/"
 }
