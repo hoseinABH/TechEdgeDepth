@@ -53,7 +53,7 @@ function Slug({ data }: ArticleProps) {
           </a>
           <p className="mt-2 text-gray-600  dark:text-gray-300">
             <Markdown
-              className="break-words overscroll-contain sm:overflow-x-hidden overflow-x-scroll"
+              className="break-words  sm:overflow-x-hidden overflow-auto"
               plugins={[gfm]}
               renderers={{ Link: Link }}
               children={article.body_markdown}
