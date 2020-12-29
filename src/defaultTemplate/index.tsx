@@ -14,9 +14,14 @@ function DefaultTemplate({ maxWidth, children, title }: DefaultTemplateProps) {
     <div className={theme === 'dark' ? 'dark' : 'light'}>
       <Head>
         <title>{title}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
         <base target="_blank" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="a website for reading and being up to date in last tech tricks..."
+        />
+        <meta property="og:title" content={title} key="title" />
       </Head>
       <div className="bg-gray-100 dark:bg-gray-900 min-h-screen  h-full pb-8">
         <NavBar />
