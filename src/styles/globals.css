@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::selection {
+  @apply bg-gray-900;
+  @apply text-gray-300;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  @apply bg-gray-900;
+  @apply text-gray-300;
+}
