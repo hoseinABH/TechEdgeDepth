@@ -12,7 +12,7 @@ function NavBar() {
   };
   const isFetching = useIsFetching();
   return (
-    <nav>
+    <nav className="select-none sm:select-auto">
       <ul className="flex items-center justify-between p-8">
         <li className="flex space-x-6 items-center">
           <button

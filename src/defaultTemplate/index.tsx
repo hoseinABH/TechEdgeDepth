@@ -38,7 +38,10 @@ function DefaultTemplate({ maxWidth, children, title }: DefaultTemplateProps) {
         <meta name="theme-color" content="#111827" />
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
         <meta
           name="description"
           content="a website for reading and being up to date in last tech tricks..."
@@ -52,6 +55,7 @@ function DefaultTemplate({ maxWidth, children, title }: DefaultTemplateProps) {
         />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="/favicon.png"></meta>
+        <meta name="HandheldFriendly" content="true" />
       </Head>
       <div className="bg-gray-100 dark:bg-gray-900 min-h-screen transition-all duration-300  h-full pb-8">
         <NavBar />

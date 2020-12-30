@@ -7,7 +7,7 @@ export type collectionProps = {
 };
 function ArticleCollection({ collection }: collectionProps) {
   return (
-    <ul className="space-y-2 sm:space-y-0 rounded-2xl">
+    <ul className="space-y-2 sm:space-y-0 rounded-2xl select-none sm:select-auto">
       {collection.map((article) => (
         <CollectionItem key={article.id} article={article} />
       ))}

@@ -7,7 +7,7 @@ export type PopularProps = {
 
 function Popular({ popular }: PopularProps) {
   return (
-    <div className="block md:flex space-y-5 sm:space-y-0  mb-4">
+    <div className="block md:flex space-y-5 sm:space-y-0 mb-4 select-none sm:select-auto">
       {popular.map((p: Article) => (
         <Card key={p.id} article={p} />
       ))}
