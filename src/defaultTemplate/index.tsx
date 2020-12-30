@@ -56,6 +56,11 @@ function DefaultTemplate({ maxWidth, children, title }: DefaultTemplateProps) {
       <div className="bg-gray-100 dark:bg-gray-900 min-h-screen transition-all duration-300  h-full pb-8">
         <NavBar />
         <div className={`max-w-${maxWidth} px-4 mx-auto mt-4`}>{children}</div>
+        <footer className="pt-8">
+          <p className="text-center dark:text-gray-300 text-gray-900">
+            Made With ❤ By Me
+          </p>
+        </footer>
       </div>
     </div>
   );
