@@ -53,7 +53,7 @@ function DefaultTemplate({ maxWidth, children, title }: DefaultTemplateProps) {
         <meta property="og:type" content="article" />
         <meta property="og:image" content="/favicon.png"></meta>
       </Head>
-      <div className="bg-gray-100 dark:bg-gray-900 min-h-screen  h-full pb-8">
+      <div className="bg-gray-100 dark:bg-gray-900 min-h-screen transition-all duration-300  h-full pb-8">
         <NavBar />
         <div className={`max-w-${maxWidth} px-4 mx-auto mt-4`}>{children}</div>
       </div>
