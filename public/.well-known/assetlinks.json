@@ -1,0 +1,5 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target" : { "namespace": "android_app", "package_name": "app.vercel.deep_eta.twa",
+                   "sha256_cert_fingerprints": ["F5:EE:31:57:8F:33:99:A2:4F:40:59:00:92:DE:7E:C4:57:F4:7D:B7:30:DD:2B:6A:52:4F:52:F2:FE:DD:7C:BC"] }
+    }]
